@@ -1,0 +1,99 @@
+@import url('https://fonts.google.com/specimen/Inter');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #EDEDF9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .my-skills-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 735px;
+    height: 338px;
+    position: relative;
+  }
+  
+  .my-skills-container > h1 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    padding: 0;
+  }
+
+  .my-skills-container > p {
+    color: #8484A7;
+    font-size: 14px;
+    line-height: 200%;
+    padding-bottom: 20px;
+  }
+  
+  .my-skills-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  #skillInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #EDEDF9;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  #addSkillBtn {
+    background-color: #523FFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  #addSkillBtn:hover {
+    background-color: #4f46e5;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: start;
+  }
+  
+  .skill-item {
+    border: 1px solid #EDEDF9;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-item .delete-btn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .skill-item .delete-btn:hover {
+    color: red;
+  }
